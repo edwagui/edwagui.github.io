@@ -3,11 +3,139 @@
      <head>
           <meta charset = "UTF-8" />
           <meta name = "viewport" content = "width = device-width" />
+          <link id="changer" rel="stylesheet" href="index.css">
+          <script src="index.js"></script>
           <title>Edward's Website</title>
      </head>
      <body>
-          <div name = "head">
-               <p id = "title">Edward's Website</p>
-          </div>
+          <nav id="desktop-nav">
+               <div id="logos-container">
+                    <p id="logo-for-me"><strong>|: j</strong></p>
+                    <p id="Mr-Port">Mr. Portfolio</p>
+               </div>
+               <div id="button-container">
+                    <ul id="button-list">
+                         <li class="nav-buttons" id="About-nav" onclick="Change2About()">About</li>
+                         <li class="nav-buttons" id="Skills-nav" onclick="Change2Skills()">Skills</li>
+                         <li class="nav-buttons" id="Projects-nav" onclick="Change2Projects()">Projects</li>
+                    </ul>
+               </div>
+          </nav>
+          <section id="About-Section">
+               <div class="PortMess">
+                    <div class="MBox-medium">
+                         <p>Can you introduce yourself?</p>
+                    </div>
+               </div>
+               <div class="MyMess">
+                    <div class="MBox-Long">
+                         <p>Hello!</p>
+                         <h1>I am John Edward Aguirang</h1>
+                    </div>
+                    <div class="MBox-medium">
+                         <p>I am currently a college student taking an IT Bachelor’s Degree.</p>
+                    </div>
+                    <div class="MBox-medium">
+                         <p>|: j</p>
+                    </div>
+                    <div class="MBox-medium">
+                         <p>Here is where you can find me</p>
+                    </div>
+                    <div class="img-links">
+                         <a href="https://github.com/edwagui" target="_blank">
+                              <img src="./Assets/GitHub_img.png"  class="img-list"/>
+                         </a>
+                         <a href="https://www.facebook.com/kitipat.aguirang" target="_blank">
+                              <img src="./Assets/FaceBook_img.png" class="img-list"/>
+                         </a>
+                         <a href="mailto:email@example.com">
+                              <img src="./Assets/Gmail_img.png" class="img-list"/>
+                         </a>
+                    </div>
+               </div>
+               <div class="PortMess">
+                    <div class="MBox-medium">
+                         <p>Nice to meet you.</p>
+                    </div>
+               </div>
+               <div class="DateTime">
+                    <div class="Date">
+                         <p>01-17-24</p>
+                    </div>
+               </div>
+               <div class="MyMess">
+                    <div class="MBox-Long">
+                         <p>I’m currently a second-year student at Mapua Malayan Colleges Laguna</p>
+                    </div>
+                    <div class="MBox-Long">
+                         <p>I’m currently also taking a web development course this term. Which is why this exists.</p>
+                    </div>
+                    <div class="MBox-Long">
+                         <p>I wish to develop my skills while I am in this college. I also wish to find my next direction to go to. It’s been challenging and fun.</p>
+                    </div>
+               </div>
+               <div class="PortMess">
+                    <div class="MBox-medium">
+                         <p>Interesting...</p>
+                    </div>
+               </div>
+               <div class="DateTime">
+                    <div class="Time">
+                         <p>10:06pm</p>
+                    </div>
+               </div>
+               <div class="PortMess">
+                    <div class="MBox-Long">
+                         <p>Would you rather become a cactus or a shark?</p>
+                    </div>
+               </div>
+               <div class="MyMess">
+                    <div class="MBox-Long">
+                         <p>In this field, I want to keep finding targets or goals. I want to always be agile. I think a shark works better for that.</p>
+                    </div>
+               </div>
+          </section>
+          <section id="Skills-Section">
+               <div class="PortMess">
+                    <div class="MBox-medium">
+                         <p>Any particular skills that you want to tell?</p>
+                    </div>
+               </div>
+               <div class="MyMess">
+                    <div class="MBox-medium">
+                         <p>I've dabbled in a few programming languages.</p>
+                    </div>
+                    <div class="MBox-medium">
+                         <p>Python,C++,C#,HTML</p>
+                    </div>
+                    <div class="MBox-Long">
+                         <p>I have experience on working with Windows Forms. I've also done a bit og game development</p>
+                    </div>
+               </div>
+               <div class="DateTime">
+                    <div class="Date">
+                         <p>01-15-24</p>
+                    </div>
+               </div>
+               <div class="MyMess">
+                    <div class="MBox-medium">
+                         <p>I've recently been doing JavaScript and SQL.</p>
+                    </div>
+               </div>
+          </section>
+          <section id="Projects-Section">
+               <div class="PortMess">
+                    <div class="MBox-Long">
+                         <p>Any interesting projects you’ve done in the past?</p>
+                    </div>
+               </div>
+               <div class="MyMess">
+                    <div class="MBox-medium">
+                         <p>I've helped in developing a game.</p>
+                         <img id="Skack-Whunk" src="./Assets/with_Luis_and_Par.gif"/>
+                         <p>Whack Skunky. A variation of the arcade game, Whack-a-mole.</p>
+                    </div>
+               </div>
+          </section>
      </body>
 </html>

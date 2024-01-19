@@ -1,0 +1,98 @@
+#desktop-nav{
+     position:fixed;
+     top:0;
+     left:0;
+     right:0;
+     width:100%;
+}
+#logos-container{
+     display: flex;
+     justify-content: space-between;
+     background-color:#843C0C;
+}
+#logo-for-me{
+     font-size:2.5rem;
+     color:#F4B183;
+     margin-left:5%;
+     font-family:Segoe Ui;
+}
+#Mr-Port{
+     font-size:2.5rem;
+     font-family:Forte;
+     color:#FBE5D6;
+     margin-right:5%;
+}
+#button-container{
+     display:flex;
+     background-color:#C55A11;
+}
+#button-list{
+     list-style:none;
+     display:flex;
+     gap:15%;
+     margin:0%;
+     margin-left:5%;
+}
+.nav-buttons{
+     text-align:center;
+     font-size:1.0625rem;
+     padding:14px 16px;
+     border-radius:7px;
+     color:#FBE5D6;
+     font-family:Elephant;
+}
+.nav-buttons:hover {
+     background-color:#FBE5D6;
+     color:#843C0C;
+}
+#Projects-nav{
+     background-color:#FBE5D6;
+     color:#843C0C;
+}
+#About-Section{
+     display:none;
+}
+#Skills-Section{
+     display:none;
+}
+#Projects-Section{
+     display:flex;
+     flex-direction:column;
+     margin-top:15%;
+     font-family:Segoe Ui;
+     font-size:15px;
+     animation: slide 1s ease-out;
+}
+.PortMess{
+     margin-left:15%;
+     color:#F2F2F2;
+}
+.MyMess{
+     display:flex;
+     flex-direction:column;
+     align-items:flex-end;
+     margin-right:15%;
+     text-align: right;
+}
+.DateTime{
+     display:flex;
+     justify-content:center;
+     font-size:45%;
+     color:#A6A6A6;
+}
+.MyMess .MBox-medium{
+     width:300px;
+}
+.MBox-Long{
+     width:450px;
+}
+.img-list{
+     height:75px;
+}
+#Skack-Whunk{
+     width:300px;
+}
+@keyframes slide{
+     from {margin-top:100%;}
+     to {margin-top:15%;}
+}
